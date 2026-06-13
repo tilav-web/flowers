@@ -28,9 +28,9 @@ export default function Hero() {
       />
 
       {/* Floating emojis */}
-      <span className="animate-float absolute top-32 right-[15%] text-5xl select-none pointer-events-none">🌹</span>
-      <span className="animate-float-delay absolute top-48 right-[8%] text-3xl select-none pointer-events-none">🌸</span>
-      <span className="animate-float absolute bottom-40 right-[20%] text-4xl select-none pointer-events-none">💐</span>
+      <span className="animate-float absolute top-32 right-[15%] text-4xl sm:text-5xl select-none pointer-events-none hidden sm:block">🌹</span>
+      <span className="animate-float-delay absolute top-48 right-[8%] text-2xl sm:text-3xl select-none pointer-events-none hidden sm:block">🌸</span>
+      <span className="animate-float absolute bottom-40 right-[20%] text-3xl sm:text-4xl select-none pointer-events-none hidden sm:block">💐</span>
       <span className="animate-float-delay absolute top-60 left-[5%] text-3xl select-none pointer-events-none hidden lg:block">🌷</span>
       <span className="animate-float absolute bottom-52 left-[8%] text-2xl select-none pointer-events-none hidden lg:block">🌺</span>
 
@@ -53,7 +53,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 60 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.1, ease }}
-              className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight"
+              className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight"
               style={{ fontFamily: 'var(--font-playfair), serif', color: '#1a1a2e' }}
             >
               Har bir
